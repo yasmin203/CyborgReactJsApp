@@ -1,0 +1,17 @@
+/* .section-header{
+text-transform: uppercase;
+margin-top:50px;
+padding: 25px ;
+
+} */
+.section-header h4{ 
+    font-size:36px;
+    font-weight: var(--font-weight-normal);
+    color: var(--color-pink);
+    text-transform:capitalize;
+}
+.section-header h4 em{
+    text-decoration: underline;  
+    font-style: normal;  
+    color: var(--color-light);
+}

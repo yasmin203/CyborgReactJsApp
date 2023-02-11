@@ -15,9 +15,14 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+ul,a,p,h1,h2,h3,h4,h5,h6{
+    text-decoration: none;
+    list-style: none;
+}
 
 body{
     background-color: var(--color-bg-body);
     font-family: var(--font-family-primary);
+    color: var(--color-light)
     
 }

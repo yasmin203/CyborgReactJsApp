@@ -1,0 +1,38 @@
+.most-popular-item{
+    flex:1 25%;
+      
+  } 
+  .card-wrapper{
+  background-color:var(--color-dark);
+  border-radius: calc(var(--border-radius)/2);
+  padding:calc(var(--padding-primary)/2);
+  margin:calc(var(--margin-primary)/5);
+  }
+  .most-popular-img{
+      width:100%;
+      border-radius:calc(var(--border-radius)/2);
+      margin-bottom:calc(var(--margin-primary)/4);
+  
+  }
+  .img-text{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  .img-text h4{
+      font-size:14px;
+      margin-bottom: 10px;
+      text-transform:capitalize;
+      line-height:1.5;
+  
+  }
+  .img-text h4 span{
+      font-size:14px;
+      font-weight: var(--font-weight-normal);
+      color: #777;
+  }
+  .img-text ul{
+      font-size:14px;
+      text-transform:uppercase;
+  }

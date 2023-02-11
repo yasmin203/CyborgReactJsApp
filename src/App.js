@@ -1,12 +1,14 @@
 import React from 'react'
 import "./App.css"
-import {Header,Container,Hero,Footer} from './components/index'
+import {Header,Hero,MostPopular,Footer} from './sections/index'
+import {Container} from './components/index'
 const App = () => {
   return (
       <>
       <Header />
       <Container>
         <Hero />
+        <MostPopular/>
       </Container>
       <Footer />
       </>
