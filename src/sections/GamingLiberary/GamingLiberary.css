@@ -1,4 +1,8 @@
 .gaming-liberary-cards{
     display:flex;
     flex-wrap:wrap;
+ 
+}
+center{
+    margin:-10px;
 }

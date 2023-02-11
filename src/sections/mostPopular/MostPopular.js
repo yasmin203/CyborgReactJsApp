@@ -1,6 +1,6 @@
 import React from "react"
 import "./MostPopular.css"
-import {Card,SectionHeader, SectionWrapper} from '../../components/index'
+import {Card,SectionHeader, SectionWrapper,PrimaryBtn} from '../../components/index'
 import MostPopularData from "../../DataA/MostpopularData"
 
 const MostPopular = (props) => {
@@ -14,11 +14,14 @@ const MostPopular = (props) => {
   return (
     <>
       <SectionWrapper>
-    <SectionHeader><em>most popular</em>right now</SectionHeader>
+    <SectionHeader><em>most popular</em> right now</SectionHeader>
       <div className='most-popular-items'>
           {cards}
-      </div>
+        </div>
       </SectionWrapper>
+      <center>
+        <PrimaryBtn>Discover popular</PrimaryBtn>
+      </center>
 </>
   
   )

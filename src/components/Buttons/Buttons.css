@@ -1,0 +1,35 @@
+.main-button{
+    min-width:150px;
+    font-size:0.9rem;
+    transition: 0.7s ease;
+    letter-spacing:2px;
+    text-transform:capitalize;
+
+}
+.primary-button a{
+    background-color: var(--color-pink);
+    border:none;
+    color: var(--color-light);
+    padding:15px calc(var(--padding-primary)/2);
+    border-radius: var(--border-radius);
+   
+
+}
+.main-button a:hover{
+    background-color: var(--color-light);
+    color: var(--color-pink);
+}
+.secondary-button a{
+    background-color: transparent;
+    border:1px solid var(--color-pink);
+    color: var(--color-pink);
+    padding:15px calc(var(--padding-primary)/2);
+    border-radius: var(--border-radius);
+   
+
+}
+.secondary-button a:hover{
+    background-color: var(--color-light);
+    border:transparent;
+
+}

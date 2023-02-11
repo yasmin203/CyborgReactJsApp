@@ -4,6 +4,7 @@
     --color-darkest: #1F2122;
     --color-light : #FFFFFF;
     --color-pink:#EC6090;
+    --color-SUB:#777;
     --distance-primary:50px;
     --padding-primary:var(--distance-primary);
     --margin-primary: var(--distance-primary);
@@ -15,7 +16,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
-ul,a,p,h1,h2,h3,h4,h5,h6{
+ul,a,p,h1,h2,h3,h4,h5,h6,a{
     text-decoration: none;
     list-style: none;
 }

@@ -30,7 +30,7 @@
   .img-text h4 span{
       font-size:14px;
       font-weight: var(--font-weight-normal);
-      color: #777;
+      color: var(--color-SUB);
   }
   .img-text ul{
       font-size:14px;

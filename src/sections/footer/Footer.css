@@ -1,0 +1,8 @@
+ .footer-text h4{
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 2.5;
+    text-transform: capitalize;
+    margin: calc(var(--margin-primary)/2) 0;
+    font-weight:var(--font-weight-normal);
+}
