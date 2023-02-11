@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 className="hero-subtitle">
             <em><span>BROWSE</span> OUR POPULAR GAMES HERE</em>
           </h1>
-       <button className="button-hero">Browse Now</button>
+          <div className="main-button"><a href="/#">Browse Now</a></div>
           </div>
     </div>
   )

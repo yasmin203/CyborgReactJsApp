@@ -1,0 +1,11 @@
+.gaming-liberary-card{
+    flex: 1 1 100%
+}
+.gaming-liberary-card ul{
+   display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+
+
+}
