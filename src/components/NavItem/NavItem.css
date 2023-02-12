@@ -1,0 +1,6 @@
+@media screen and  (max-width:767px){
+    li.nav-item {
+        border-bottom: 1px solid #ffffff2e !important;
+        padding:5px;
+    }
+}

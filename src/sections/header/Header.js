@@ -1,21 +1,22 @@
 import React from 'react'
-import './Header.css'
 import logo from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
 import { NavItem, NavItemDropDown } from "../../components/index"
 // import { FaSearch } from 'react-icons/fa'
+import './Header.css'
+
 const Header = () => {
 
   return (
-    <div className="navbar navbar-expand-md mt-2 navbar-dark text-white">
+    <div className="navbar navbar-expand-md mt-2 navbar-dark text-light">
         <div className="container">
-              <Link to="/" className="navbar-brand"><img src={logo} alt="logo" /></Link> 
+              <Link to="/" className="navbar-brand"><img className='logo-img' src={logo} alt="logo" /></Link> 
               {/* <!-- Search form --> */}
-              <div className="input-group w-25 ms-5">
-                <input className="form-control text-light px-3 py-2 " type="search" value="search" id="example-search-input"/>
+              <div className="input-group w-25 ms-5 beforMargin">
+                <input className="form-control text-light py-2 rounded-pill" type="search" value="search" id="example-search-input"/>
                 {/* <span className="input-group-append">
                     <button className="bg-transparent ms-n5 flip border-0 text-light mt-2 " type="button">
-                        <FaSearch/>
+                        <FaSearch/> 
                     </button>
                 </span> */}
             </div>

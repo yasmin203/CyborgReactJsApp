@@ -20,3 +20,49 @@
     font-size:0.9rem;
     color:var(--color-SUB);
 }
+
+@media screen and (max-width: 768px) {
+    .gaming-liberary-card{
+        flex: 1 1 100% !important;
+    }
+    
+    .gaming-liberary-card-img{
+        width:50%;
+
+    }
+   
+   
+}
+@media screen and (max-width: 992px) {
+    .gaming-liberary-card{
+        flex: 1 1 25%;
+    }
+    .gaming-liberary-card ul{
+        gap:10px 15px !important;
+
+    }
+    .gaming-liberary-card-img{
+        width:100%;
+
+    }
+    .gaming-liberary-card ul div{
+        font-size: .7rem;
+        margin-top: 10px;
+        
+    }
+    .gaming-liberary-card ul div a{
+      padding:10px;
+    }
+    .gaming-liberary-card h4{
+        font-size:0.8rem;
+        
+    }
+    .gaming-liberary-card-img img{
+        width:100%;
+        margin-top: -25px;
+    }
+    .gaming-liberary-card span{
+        font-size:0.7rem;
+    }
+    
+  }
