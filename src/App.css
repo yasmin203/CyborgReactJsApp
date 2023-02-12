@@ -27,3 +27,14 @@ body{
     color: var(--color-light)
     
 }
+@media(prefers-color-scheme : light){
+    body{
+        background-color: #a5a4a4;
+    color: var(--color-dark)
+        
+
+
+    }
+   
+    
+}

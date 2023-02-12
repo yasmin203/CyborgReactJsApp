@@ -5,6 +5,12 @@
   margin-left: 60px;
   margin-right: -60px;
 }
+
+@media(prefers-color-scheme : light){
+    #example-search-input {
+        background-color: #f8f9fa75;
+    }
+}
 .beforMargin::before {
   content: "";
   border-left: 1px solid #dee2e624;

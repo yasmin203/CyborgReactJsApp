@@ -8,6 +8,12 @@
   padding:calc(var(--padding-primary)/2);
   margin:calc(var(--margin-primary)/5);
   }
+  @media (prefers-color-scheme : light){
+    .card-wrapper{
+        background-color: #f8f9fa75;  
+      }
+        
+}
   .most-popular-img{
       width:100%;
       border-radius:calc(var(--border-radius)/2);

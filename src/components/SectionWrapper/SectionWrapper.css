@@ -5,3 +5,8 @@
     margin-top: var(--margin-primary);
 
 }
+@media (prefers-color-scheme : light){
+    .section-wrapper{
+        background-color: #ffffff45;    }
+        
+}
