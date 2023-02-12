@@ -3,7 +3,7 @@ import './Header.css'
 import logo from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
 import { NavItem, NavItemDropDown } from "../../components/index"
-import { FaSearch } from 'react-icons/fa'
+// import { FaSearch } from 'react-icons/fa'
 const Header = () => {
 
   return (
