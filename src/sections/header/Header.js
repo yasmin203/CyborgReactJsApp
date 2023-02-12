@@ -1,30 +1,43 @@
 import React from 'react'
 import './Header.css'
 import logo from '../../assets/images/logo.png'
-import {NavItem ,NavItemDropDown} from "../../components/index"
+import { Link } from 'react-router-dom'
+import { NavItem, NavItemDropDown } from "../../components/index"
+import { FaSearch } from 'react-icons/fa'
 const Header = () => {
 
   return (
-    <div className="navbar navbar-expand-md  navbar-dark text-white fixed-top">
+    <div className="navbar navbar-expand-md mt-2 navbar-dark text-white">
         <div className="container">
-            <a href="#" className="navbar-brand"><img src={logo} alt="logo" /></a>
+              <Link to="/" className="navbar-brand"><img src={logo} alt="logo" /></Link> 
+              {/* <!-- Search form --> */}
+              <div className="input-group w-25 ms-5">
+                <input className="form-control text-light px-3 py-2 " type="search" value="search" id="example-search-input"/>
+                {/* <span className="input-group-append">
+                    <button className="bg-transparent ms-n5 flip border-0 text-light mt-2 " type="button">
+                        <FaSearch/>
+                    </button>
+                </span> */}
+            </div>
+        
+          {/* end earch  */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="mainmenu">
                 <ul className="navbar-nav ms-auto">
-                    <NavItem><a href="#hero" className="nav-link">Home</a></NavItem>
-                    <NavItem><a href="#features" className="nav-link">Browse</a></NavItem>
+                    <NavItem><Link to="/" className="nav-link">Home</Link></NavItem>
+                    <NavItem><Link to="#features" className="nav-link">Browse</Link></NavItem>
                     <NavItemDropDown>
-                        <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
+                        <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</Link>
                         <ul className="dropdown-menu">
-                            <li><a href="#learn" className="dropdown-item">Learn Bootstrap</a></li>
-                            <li><a href="#next" className="dropdown-item">Where to go next</a></li>
+                            <li><Link to="#learn" className="dropdown-item">Learn Bootstrap</Link></li>
+                            <li><Link to="#next" className="dropdown-item">Where to go next</Link></li>
                         </ul>
                     </NavItemDropDown>
-                    <NavItem><a href="#faq" className="nav-link">Streams</a></NavItem>
-                    <NavItem><a href="#faq" className="nav-link">Profile</a></NavItem>
-                    <NavItem><a href="./index-ar.html" className="nav-link">عربي</a></NavItem>
+                    <NavItem><Link to="#faq" className="nav-link">Streams</Link></NavItem>
+                    <NavItem><Link to="/profile" className="nav-link">Profile</Link></NavItem>
+                    <NavItem><Link to="./index-ar.html" className="nav-link">عربي</Link></NavItem>
                 </ul>
             </div>
         </div>

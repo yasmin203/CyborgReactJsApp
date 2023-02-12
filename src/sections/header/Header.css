@@ -1,0 +1,28 @@
+#example-search-input{
+    border-radius:25px;
+    box-shadow:none;
+    background-color: var(--color-dark);
+    border:none;
+    margin-left:60px;
+    margin-right:-60px;
+}
+.input-group.w-25.ms-5::before {
+    content: "";
+    border-left: 1px solid #dee2e624;
+    width: 2px;
+    height: 50px;
+}
+input#example-search-input:focus {
+    border: 1px solid #777 !important;
+    outline:none !important;
+
+}
+/* .input-group-append{
+    position:absolute;
+    z-index:10;
+    left:-20px;
+
+}
+button .flip{
+    
+} */

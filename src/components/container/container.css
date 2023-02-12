@@ -2,7 +2,7 @@
     background-color: var(--color-dark);
     padding: var(--padding-primary);
     border-radius: var(--border-radius);
-    margin-top: calc(var(--margin-primary)*2);
+    margin-top: calc(var(--margin-primary)/4.5);
     
 
 }
