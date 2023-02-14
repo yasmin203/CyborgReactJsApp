@@ -1,11 +1,13 @@
 import React from 'react'
 import "./GamingLiberaryCard.css"
 import { SecondaryBtn } from '../Buttons/Buttons'
+import { Trans } from 'react-i18next'
 const GamingLiberaryCard = (props) => {
     return (
       <>
       <div className='gaming-liberary-card'>
           <ul>
+            <Trans i18nKey={'description.part1'}/>
           <li className='gaming-liberary-card-img'><img src={props.image} alt="liberaryC" /></li>
               <li><h4>{props.title}</h4> <span>{props.category}</span></li>
           <li><h4>Date Added </h4><span>{props.DateAdded}</span></li>
