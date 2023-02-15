@@ -22,7 +22,6 @@ const App = () => {
 const lang =navigator.language
   return (
     <>
-     
       <Router>
       <Header />
         <Container>
