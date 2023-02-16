@@ -17,7 +17,7 @@ const App = () => {
       <Router>
       <Header />
         <Container>
-          <Routes basname='CyborgReactJsApp'>
+          <Routes basename="CyborgReactJsApp">
             <Route path='/' element={<Home/>}/>
             <Route path='/profile' element={<Profile/>}/> 
             </Routes>
