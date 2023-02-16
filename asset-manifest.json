@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://yasmin203.github.io/CyborgReactJsApp/static/css/main.97577b95.css",
-    "main.js": "https://yasmin203.github.io/CyborgReactJsApp/static/js/main.726db3b0.js",
+    "main.js": "https://yasmin203.github.io/CyborgReactJsApp/static/js/main.c5475e6d.js",
     "static/media/banner-bg.jpg": "https://yasmin203.github.io/CyborgReactJsApp/static/media/banner-bg.f41cb78948354a14694e.jpg",
     "static/media/popular-05.jpg": "https://yasmin203.github.io/CyborgReactJsApp/static/media/popular-05.fb754b91636cbce130d6.jpg",
     "static/media/popular-06.jpg": "https://yasmin203.github.io/CyborgReactJsApp/static/media/popular-06.193c1358cf48df9af86f.jpg",
@@ -13,10 +13,10 @@
     "static/media/popular-03.jpg": "https://yasmin203.github.io/CyborgReactJsApp/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "https://yasmin203.github.io/CyborgReactJsApp/index.html",
     "main.97577b95.css.map": "https://yasmin203.github.io/CyborgReactJsApp/static/css/main.97577b95.css.map",
-    "main.726db3b0.js.map": "https://yasmin203.github.io/CyborgReactJsApp/static/js/main.726db3b0.js.map"
+    "main.c5475e6d.js.map": "https://yasmin203.github.io/CyborgReactJsApp/static/js/main.c5475e6d.js.map"
   },
   "entrypoints": [
     "static/css/main.97577b95.css",
-    "static/js/main.726db3b0.js"
+    "static/js/main.c5475e6d.js"
   ]
 }
