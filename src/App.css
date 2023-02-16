@@ -24,8 +24,7 @@ ul,a,p,h1,h2,h3,h4,h5,h6,a{
 body{
     background-color: var(--color-bg-body);
     font-family: var(--font-family-primary);
-    color: var(--color-light)
-    
+    color: var(--color-light);
 }
 @media(prefers-color-scheme : light){
     body{

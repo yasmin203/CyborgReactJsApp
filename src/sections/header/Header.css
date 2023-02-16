@@ -2,8 +2,8 @@
   box-shadow: none;
   background-color: var(--color-dark);
   border: none;
-  margin-left: 60px;
-  margin-right: -60px;
+  margin-inline-start: 60px;
+   margin-inline-end: -60px;
 }
 
 @media(prefers-color-scheme : light){
