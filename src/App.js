@@ -14,10 +14,10 @@ const App = () => {
     document.body.dir = i18n.dir();
   return (
     <>
-      <Router>
+      <Router basename={"/CyborgReactJsApp"}>
       <Header />
         <Container>
-          <Routes basename="CyborgReactJsApp">
+          <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/profile' element={<Profile/>}/> 
             </Routes>

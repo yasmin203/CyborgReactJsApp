@@ -8,19 +8,7 @@ import './Header.css'
 
 const Header = () => {
     const { t, i18n } = useTranslation();
-let Arbtn=document.getElementById('Arbtn')
-let Enbtn=document.getElementById('Enbtn')
-    const ChangeEN = () => {
-        i18n.changeLanguage('en')
-        Arbtn.style.display = "block"
-     }
-     
-     const ChangeAR = () => {
-         i18n.changeLanguage('ar')
-         Arbtn.style.display = "none"
-         
 
-     }
     return (
       
     <div className="navbar navbar-expand-md mt-2 navbar-dark text-light">
@@ -36,7 +24,7 @@ let Enbtn=document.getElementById('Enbtn')
                 </span> */}
             </div>
         
-          {/* end earch  */}
+          {/* end earch  */} 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -53,8 +41,8 @@ let Enbtn=document.getElementById('Enbtn')
                     </NavItemDropDown>
                     <NavItem><Link to="#faq" className="nav-link">{t('Streams')}</Link></NavItem>
                     <NavItem><Link to="/profile" className="nav-link">{t('Profile')}</Link></NavItem>
-                  {i18n.language == 'en' && <NavItem><button onClick={ChangeAR} id="Arbtn"  className="border-0 bg-transparent nav-link langAR">عربي</button></NavItem>} 
-                  {i18n.language == 'ar'&& <NavItem><button onClick={ChangeEN} id="Enbtn" className="border-0 bg-transparent nav-link langEN ">English</button></NavItem>}
+                  {i18n.language == 'en' && <NavItem><button  id="Arbtn"  className="border-0 bg-transparent nav-link langAR">عربي</button></NavItem>} 
+                  {i18n.language == 'ar'&& <NavItem><button  id="Enbtn" className="border-0 bg-transparent nav-link langEN ">English</button></NavItem>}
                 </ul>
             </div>
         </div>
